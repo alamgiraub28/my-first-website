@@ -1,0 +1,193 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+h1{
+    font-size:50px;
+}
+
+.header{
+    background-image: url(img/final-pic.jpg);
+    margin:0;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.content{
+    margin-left: 10%;
+    color: white;
+    padding-top: 15%;
+}
+
+.content span{
+    color: orange;
+}
+
+.btn-know{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background:none;
+}
+
+.btn-know a{
+    text-decoration: none;
+    color: orange;
+}
+.btn-know:hover{
+    background: orange;
+    border: none;
+}
+.btn-know a:hover{
+    color: white;
+}
+ .biography{
+    background-image: url(img/biography-bg.png);
+    margin:0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    height: 400px;
+}
+
+
+.biography-pic img{
+    margin:0;
+    padding-left:25%;
+    
+}
+.bio-area{
+    float: left;
+    width: 40%;}
+
+.biography-text{
+    padding-left:120px;
+    margin-top: 7%;
+}
+.biography-text h2{
+    color: orange;
+    padding-bottom: 20px;
+}
+.biography-text p{
+    text-align: justify;
+}
+
+.btn-cv{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: orange;
+    border: none;
+}
+
+.btn-cv a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-cv:hover{
+    background: #151313;
+}
+.latest-work{
+    background-color: lightgoldenrodyellow;
+    padding-left: 100px;
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+.latest-work span{
+    color: orange;
+}
+.latest-work h1{
+     padding: 100px 0 25px 0;
+    text-align: center;
+}
+
+
+.work-item{
+margin-left: 1%;
+width: 30%;
+float: left;
+height: 400px;
+
+}
+
+.work-item img{
+    width: 100%;
+}
+
+.client-reivew{
+    background-image: url(img/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-bottom: 100px;
+    
+}
+
+.client-reivew span{
+    color: orange;
+}
+.client-reivew h1{
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+.client-review-area{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+}
+.client-pic{
+    text-align: center;
+}
+
+.client-pic img{
+height: 250px;
+border-radius: 50%;
+}
+
+.client-pic h4{
+text-align: center;
+}
+
+.client-text{
+    margin-top:8%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.client-text blockquote{
+    font-size: 25px;
+}
+
+.contact-detail{
+    text-align: center;
+    background: orange;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.copywrite{
+   margin-top:50px;
+   margin-bottom:0;
+   height:50px;
+   font-weight:400;
+   font-size:14px;
+   text-align:center;
+   border-top:1px solid #999999;
+   align-items: center;
+   
+}
